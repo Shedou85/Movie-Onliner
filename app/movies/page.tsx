@@ -5,8 +5,6 @@ import {
   DocumentData,
   QuerySnapshot,
   collection,
-  doc,
-  getDoc,
   getDocs,
   getFirestore,
 } from "firebase/firestore";
