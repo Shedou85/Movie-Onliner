@@ -1,4 +1,5 @@
-import Link from "next/link";
+
+import Link from "@/node_modules/next/link";
 import { ERoutes } from "@/utils/routes";
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
             Movie
           </Link>
           <Link
-            href={ERoutes.Home}
+            href={ERoutes.Contacts}
             className="hover:underline hover:text-yellow-400"
           >
             Contacts

@@ -3,4 +3,5 @@ export const ERoutes = {
   Home: '/',
   About: '/about',
   Movies: '/movies',
+  Contacts: '/contacts',
 }
